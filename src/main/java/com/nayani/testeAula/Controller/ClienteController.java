@@ -24,6 +24,8 @@ public class ClienteController {
         return repository.findAll();
     }
 
+    //teste github
+
     @GetMapping("/{id}") //Define o método GET HTTP com parâmetro
     public Cliente buscar(@PathVariable Long id) {
         return repository.findById(id)
